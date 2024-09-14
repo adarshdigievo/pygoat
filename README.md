@@ -5,7 +5,7 @@
 - Use Python 3.11 venv
 - Install requirements `pip install -r requirements.txt`
 - Perform migrations: `python manage.py migrate`
-- Run the development server python3 manage.py runserver.
+- Run the development server `python3 manage.py runserver`
 - The project will be available at http://127.0.0.1:8000
 
 # PyGoat - Project Readme
