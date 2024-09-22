@@ -1,5 +1,7 @@
 # Djangocon Talk - Pygoat - Learn django Security the Hard Way
 
+Vulnerability specific readme files, relevant to the talk, are added in the `djangocon_talk` folder.
+
 ## Project setup
 
 - Use Python 3.11 venv
@@ -7,6 +9,8 @@
 - Perform migrations: `python manage.py migrate`
 - Run the development server `python3 manage.py runserver`
 - The project will be available at http://127.0.0.1:8000
+- Create a superuser account `python manage.py createsuperuser`
+- Login using the superuser account at http://127.0.0.1:8000. Now you can access the labs
 
 # PyGoat - Project Readme
 
