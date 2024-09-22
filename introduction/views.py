@@ -489,13 +489,13 @@ def Otp(request):
         otpN=randint(100,999)
         if email and otpN:
             if email=="admin@pygoat.com":
-                otp.objects.filter(id=2).update(otp=otpN)
+                otp.objects.filter(id=2).update_or_create(otp=otpN)
                 html = render(request, "Lab/BrokenAuth/otp.html", {"otp":"Sent To Admin Mail ID"})
                 html.set_cookie("email", email)
                 return html
 
             else:
-                otp.objects.filter(id=1).update(email=email, otp=otpN)
+                otp.objects.filter(id=1).update_or_create(email=email, otp=otpN)
                 html=render (request,"Lab/BrokenAuth/otp.html",{"otp":otpN})
                 html.set_cookie("email",email)
                 return html
