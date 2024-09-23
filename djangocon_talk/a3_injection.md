@@ -1,7 +1,7 @@
 ## Lab 1 (SQL Injection)
 
 - Mission: Log-in as admin
-- Code: [views.py sql_lab() line:157](jetbrains://pycharm/navigate/reference?project=Djangocon%20-%20Pygoat&path=introduction/views.py:157
+- Code: [views.py sql_lab() line:166](jetbrains://pycharm/navigate/reference?project=Djangocon%20-%20Pygoat&path=introduction/views.py:166
   )
 - First you need to login to the Pygoat application as 
  superuser (as mentioned in `readme.md` project setup).
@@ -13,7 +13,7 @@ inject SQL commands to gain access.
 ## Lab 2 (Command injection Lab 1 in Pygoat)
 
 - Mission: Execute arbitrary code on the server
-- Code: [views.py cmd_lab() line:416](jetbrains://pycharm/navigate/reference?project=Djangocon%20-%20Pygoat&path=introduction/views.py:416
+- Code: [views.py cmd_lab() line:454](jetbrains://pycharm/navigate/reference?project=Djangocon%20-%20Pygoat&path=introduction/views.py:454
   )
 - Go to the [command injection lab 1](http://localhost:8000/cmd)
 - Perform injection by combining a domain + a command (`google.com & dir`)

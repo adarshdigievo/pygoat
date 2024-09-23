@@ -2,7 +2,7 @@
 
 - Mission: Enter the admin page where a secret visible only to 
 admin can be found.
-- Code: [views.py line:530](jetbrains://pycharm/navigate/reference?project=Djangocon%20-%20Pygoat&path=settings.py:530)
+- Code: [views.py line:576](jetbrains://pycharm/navigate/reference?project=Djangocon%20-%20Pygoat&path=introduction/views.py:576)
 - Go to [Lab page](http://localhost:8000/sec_mis) and open Lab 1.
 - Based on the error message, a check is done on an X-HOST header
 - We can intercept the request, modify it from client side to 
@@ -18,7 +18,7 @@ see how the application behave.
 ## Lab 2 (A5 Security Misconfiguration Lab 2 in Pygoat)
 
 - Mission: See a secret env variable stored in the server.
-- Code: [settings.py line:30](jetbrains://pycharm/navigate/reference?project=Djangocon%20-%20Pygoat&path=settings.py:30)
+- Code: [settings.py line:30](jetbrains://pycharm/navigate/reference?project=Djangocon%20-%20Pygoat&path=pygoat/settings.py:30)
 - Go to [Lab page](http://localhost:8000/sec_mis) and open Lab 2.
 - We need to expose a sensitive env variable
 - Trigger a 404 page by opening an invalid url. Since it shows all 
@@ -28,4 +28,4 @@ possible routes, we can understand that Django debug
 exposure. When the application produces a 500
   error, the env is dumped to the UI.
 - We have a readily made [500 error page](). Its code is
-  at [views.py error(): 397](jetbrains://pycharm/navigate/reference?project=Djangocon%20-%20Pygoat&path=introduction/views.py:397)
+  at [views.py error(): 433](jetbrains://pycharm/navigate/reference?project=Djangocon%20-%20Pygoat&path=introduction/views.py:433)
